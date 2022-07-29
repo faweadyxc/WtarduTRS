@@ -6,8 +6,6 @@ jobs:
     name: runner / misspell
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout 🛎️
-        uses: actions/checkout@v2
       - name: Run Spell Check 📝
         uses: reviewdog/action-misspell@v1
         with:
